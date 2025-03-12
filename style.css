@@ -315,7 +315,7 @@ p {
   }
 
   .project-grid a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   .project-card {
