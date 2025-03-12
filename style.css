@@ -240,10 +240,12 @@ section h2 {
 }
 
 .icon {
+    min-width: 3.7rem;
+    min-height: 4rem;
     display: inline-block;
-    font-size: 2rem;
-    background-color: #F9ECEC;
-    border-radius: 15px;
+    font-size: 45px;
+    background-color: #ffd4d4;
+    border-radius: 65px;
 }
 
 h2 {
@@ -310,6 +312,10 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+  }
+
+  .project-grid a {
+    text-decoration: none;
   }
   
   .project-card {
@@ -440,6 +446,10 @@ footer {
     padding: 2rem;
     background-color: var(--text-color);
     color: var(--bg-color);
+}
+
+.social-links{
+    margin-bottom: 10rem;
 }
 
 /* Responsive Design */
