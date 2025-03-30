@@ -391,6 +391,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 25rem;
   }
   
   .contact-form form{
@@ -474,6 +475,8 @@ footer {
 .social-links{
     margin-bottom: 10rem;
 }
+
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
